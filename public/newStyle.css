@@ -1,0 +1,66 @@
+/* newStyle.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h3 {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #12a454;
+}
+
+form {
+    margin: 10px;
+}
+
+/* Chat styles */
+.chat {
+    background-color: #212121;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.chat p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.msg {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+hr {
+    margin: 15px 0;
+    border: 1px solid #333333;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    .chat {
+        padding: 10px;
+    }
+}
